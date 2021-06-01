@@ -1,0 +1,7 @@
+.header__menu-button {
+    grid-area: header__menu-button;
+    display: flex;
+    border: 0;
+    padding: 0;
+    background: transparent;
+}

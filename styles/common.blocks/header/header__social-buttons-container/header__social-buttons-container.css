@@ -1,0 +1,5 @@
+.header__social-buttons-container {
+    grid-area: header__social-buttons-container;
+    display: flex;
+    gap: 40px;
+}

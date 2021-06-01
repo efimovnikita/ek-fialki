@@ -1,0 +1,8 @@
+.header__cart-button {
+    grid-area: header__cart-button;
+    display: flex;
+    align-items: center;
+    border: 0;
+    padding: 0;
+    background: transparent;
+}

@@ -1,0 +1,12 @@
+@import 'common.blocks/header/header.css';
+@import 'common.blocks/body/body.css';
+
+* {
+    --main-color: #404040;
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Noto Serif", serif;
+    color: var(--main-color);
+  }

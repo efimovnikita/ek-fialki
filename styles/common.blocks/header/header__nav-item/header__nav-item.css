@@ -1,0 +1,7 @@
+.header__nav-item {
+    display: flex;
+    font-size: 14px;
+    flex-direction: column;
+    gap: 2px;
+    max-width: fit-content;
+}

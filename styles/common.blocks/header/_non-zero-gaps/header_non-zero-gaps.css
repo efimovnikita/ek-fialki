@@ -1,0 +1,5 @@
+.header_non-zero-gaps {
+    --gap-between-elements: 30px;
+    row-gap: var(--gap-between-elements);
+    padding-bottom: var(--gap-between-elements)
+}

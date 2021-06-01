@@ -1,0 +1,4 @@
+.header__titles-container {
+    grid-area: header__titles-container;
+    height: 83px;
+}

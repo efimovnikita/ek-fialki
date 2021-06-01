@@ -1,0 +1,8 @@
+.header__menu-cart-buttons-container {
+    grid-area: header__menu-cart-buttons-container;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 83px;
+}

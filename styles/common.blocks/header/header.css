@@ -1,0 +1,29 @@
+@import 'header__cart-button/header__cart-button.css';
+@import 'header__facebook-button/header__facebook-button.css';
+@import 'header__instagram-button/header__instagram-button.css';
+@import 'header__menu-button/header__menu-button.css';
+@import 'header__nav/header__nav.css';
+@import 'header__subtitle/header__subtitle.css';
+@import 'header__title/header__title.css';
+@import 'header__twitter-button/header__twitter-button.css';
+@import 'header__titles-container/header__titles-container.css';
+@import 'header__menu-cart-buttons-container/header__menu-cart-buttons-container.css';
+@import 'header__social-buttons-container/header__social-buttons-container.css';
+@import 'header__cart-title/header__cart-title.css';
+@import 'header__nav-list/header__nav-list.css';
+@import 'header__nav-item/header__nav-item.css';
+@import 'header__nav-item-link/header__nav-item-link.css';
+@import 'header__nav-line/header__nav-line.css';
+@import '_invisible/header_invisible.css';
+@import '_zero-gaps/header_zero-gaps.css';
+@import '_non-zero-gaps/header_non-zero-gaps.css';
+
+.header {
+    display: grid;
+    grid-template-areas:
+        "header__titles-container header__menu-cart-buttons-container"
+        "header__nav header__nav"
+        "header__social-buttons-container header__social-buttons-container";
+    border-bottom: 1px solid var(--main-color);
+    transition: all 0.1s linear;
+}

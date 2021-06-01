@@ -1,0 +1,5 @@
+.header__title {
+    grid-area: header__title;
+    font-size: 29px;
+    font-weight: 500;
+}

@@ -1,0 +1,5 @@
+.header__twitter-button {
+    grid-area: header__twitter-button;
+    border: 0;
+    background: transparent;
+}
