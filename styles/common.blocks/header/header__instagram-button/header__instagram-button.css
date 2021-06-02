@@ -1,5 +1,6 @@
 .header__instagram-button {
     grid-area: header__instagram-button;
-    border: 0;
-    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

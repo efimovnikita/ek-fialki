@@ -26,3 +26,13 @@
     border-bottom: 1px solid var(--main-color);
     transition: all 0.1s linear;
 }
+
+@media only screen and (min-width: 820px) {
+    .header {
+        grid-template-areas:
+            "header__titles-container header__titles-container"
+            "header__nav header__nav"
+            "header__social-buttons-container header__menu-cart-buttons-container";
+        border: 0;
+    }
+}

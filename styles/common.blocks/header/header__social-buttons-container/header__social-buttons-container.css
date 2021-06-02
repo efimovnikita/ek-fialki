@@ -1,5 +1,12 @@
 .header__social-buttons-container {
     grid-area: header__social-buttons-container;
     display: flex;
+    align-items: center;
     gap: 40px;
+}
+
+@media only screen and (min-width: 820px) {
+    .header__social-buttons-container {
+
+    }
 }

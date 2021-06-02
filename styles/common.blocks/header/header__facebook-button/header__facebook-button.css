@@ -1,5 +1,6 @@
 .header__facebook-button {
     grid-area: header__facebook-button;
-    border: 0;
-    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

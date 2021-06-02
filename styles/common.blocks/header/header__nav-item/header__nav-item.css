@@ -2,6 +2,7 @@
 
 .header__nav-item {
     display: flex;
+    height: 21px;
     font-size: 14px;
     flex-direction: column;
     gap: 2px;

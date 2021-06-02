@@ -4,3 +4,10 @@
     flex-direction: column;
     gap: 20px;
 }
+
+@media only screen and (min-width: 820px) {
+    .header__nav-list {
+        flex-direction: row;
+        gap: 16px;
+    }
+}

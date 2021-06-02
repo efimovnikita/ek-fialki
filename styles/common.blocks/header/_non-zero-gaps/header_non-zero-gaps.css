@@ -3,3 +3,9 @@
     row-gap: var(--gap-between-elements);
     padding-bottom: var(--gap-between-elements)
 }
+
+@media only screen and (min-width: 820px) {
+    .header_non-zero-gaps {
+        --gap-between-elements: 20px;
+    }
+}
