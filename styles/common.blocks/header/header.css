@@ -36,3 +36,11 @@
         border: 0;
     }
 }
+
+@media only screen and (min-width: 1300px) {
+    .header {
+        grid-template-areas:
+            "header__titles-container header__titles-container header__titles-container"
+            "header__nav header__menu-cart-buttons-container header__social-buttons-container";
+    }
+}
