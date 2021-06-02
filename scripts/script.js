@@ -15,3 +15,20 @@ menuButton.addEventListener('click', () => {
     nav.classList.toggle('header_invisible');
     socials.classList.toggle('header_invisible');
 })
+
+window.addEventListener("resize", function () {
+    if (window.innerWidth >= 820) {
+        if (header.classList.contains('header_zero-gaps')) {
+            header.classList.remove('header_zero-gaps');
+            header.classList.add('header_non-zero-gaps');
+        }
+
+        if (nav.classList.contains('header_invisible')) {
+            nav.classList.remove('header_invisible');
+        }
+
+        if (socials.classList.contains('header_invisible')) {
+            socials.classList.remove('header_invisible');
+        }
+    }
+  });
