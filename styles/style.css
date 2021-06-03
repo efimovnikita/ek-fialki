@@ -1,5 +1,8 @@
 @import 'common.blocks/header/header.css';
 @import 'common.blocks/body/body.css';
+@import 'common.blocks/main/main.css';
+@import 'common.blocks/footer/footer.css';
+@import 'common.blocks/article/article.css';
 
 * {
     --main-color: #404040;
