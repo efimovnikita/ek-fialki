@@ -5,3 +5,12 @@
 @import 'article__footer/article__footer.css';
 @import 'article__images-grid/article__images-grid.css';
 @import 'article__small-image/article__small-image.css';
+@import 'article__title/article__title.css';
+@import 'article__date/article__date.css';
+@import 'article__definition/article__definition.css';
+
+.article {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}

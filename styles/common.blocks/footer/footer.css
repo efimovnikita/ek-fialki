@@ -1,1 +1,6 @@
 @import 'footer__text/footer__text.css';
+
+.footer {
+    border-top: 1px solid #404040;
+    padding-top: 10px;
+}

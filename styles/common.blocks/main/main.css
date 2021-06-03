@@ -1,0 +1,6 @@
+.main {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    display: grid;
+    gap: 60px;
+}
