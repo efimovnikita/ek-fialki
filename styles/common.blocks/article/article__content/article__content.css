@@ -3,3 +3,10 @@
     flex-direction: column;
     gap: 30px;
 }
+
+@media only screen and (min-width: 1300px) {
+    .article__content {
+        grid-area: article__content;
+        width: 844px;
+    }
+}

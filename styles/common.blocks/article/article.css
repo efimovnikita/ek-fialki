@@ -14,3 +14,14 @@
     flex-direction: column;
     gap: 30px;
 }
+
+@media only screen and (min-width: 1300px) {
+    .article {
+        display: grid;
+        grid-template-areas:
+            "article__header article__content"
+            "article__header article__footer";
+        column-gap: 0;
+        row-gap: 30px;
+    }
+}

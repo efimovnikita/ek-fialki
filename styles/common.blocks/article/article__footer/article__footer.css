@@ -1,0 +1,6 @@
+@media only screen and (min-width: 1300px) {
+    .article__footer {
+        grid-area: article__footer;
+        width: 844px;
+    }
+}

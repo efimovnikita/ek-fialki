@@ -3,6 +3,7 @@
 @import 'common.blocks/main/main.css';
 @import 'common.blocks/footer/footer.css';
 @import 'common.blocks/article/article.css';
+@import 'common.blocks/html/html.css';
 
 * {
     --main-color: #404040;

@@ -1,6 +1,7 @@
 .article__images-grid {
     display: grid;
+    width: fit-content;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
-    justify-items: center;
+    justify-items: start;
 }
