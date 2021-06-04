@@ -17,10 +17,10 @@
         </div>
         <div class="header__menu-cart-buttons-container">
             <button id="menu-button" class="header__menu-button">
-                <img src="assets/hamburger.svg" alt="Меню">
+                <img src="assets/icons/hamburger.svg" alt="Меню">
             </button>
             <a class="header__cart-button">
-                <img src="assets/cart.svg" alt="Корзина">
+                <img src="assets/icons/cart.svg" alt="Корзина">
                 <p class="header__cart-title">Корзина</p>
             </a>
         </div>
@@ -54,13 +54,13 @@
         </nav>
         <div id="socials" class="header__social-buttons-container">
             <a class="header__instagram-button">
-                <img src="assets/instagram.svg" alt="Instagram">
+                <img src="assets/icons/instagram.svg" alt="Instagram">
             </a>
             <a class="header__twitter-button">
-                <img src="assets/twitter.svg" height="20px" alt="Twitter">
+                <img src="assets/icons/twitter.svg" height="20px" alt="Twitter">
             </a>
             <a class="header__facebook-button">
-                <img src="assets/facebook.svg" alt="Facebook">
+                <img src="assets/icons/facebook.svg" alt="Facebook">
             </a>
         </div>
     </header>
@@ -72,11 +72,13 @@
                 <div class="article__line"></div>
             </header>
             <section class="article__content">
-                <a href="assets/images/full-size/ek-lingerie.webp" target="_blank">
-                    <img
-                    class="article__single-image"
-                    src="assets/images/thumbnails/ek-lingerie-thumbnail.webp"
-                    alt="Фиалка ЕК-Линжери">
+                <a href="assets/images/full-size/ek-lingerie-full.jpg" target="_blank">
+                    <img srcset="/assets/images/sub-mid/ek-lingerie-sub-303w.jpg 303w,
+                                /assets/images/mid-size/ek-lingerie-764w.jpg 764w"
+                        class="article__single-image"
+                        sizes="(max-width: 819px) 303px, 764px"
+                        src="assets/images/mid-size/ek-lingerie-764w.jpg"
+                        alt="Фиалка ЕК-Линжери">
                 </a>
                 <p>
                     <a href="#">Скачать каталог</a><br>
@@ -103,41 +105,53 @@
                     каймой. Почти все сорта имеют красивые выставочные розетки.
                 </p>
                 <div class="article__images-grid">
-                    <a href="assets/images/full-size/ek-gold.webp" target="_blank">
-                        <img
-                        class="article__small-image"
-                        src="assets/images/thumbnails/ek-gold-thumbnail.webp"
-                        alt="Фиалка ЕК-Золото">
+                    <a href="assets/images/full-size/ek-gold-full.jpg" target="_blank">
+                        <img srcset="/assets/images/thumbnails/ek-gold-146w.jpg 146w,
+                                    /assets/images/sub-mid/ek-gold-sub-377w.jpg 377w"
+                            class="article__small-image"
+                            sizes="(max-width: 819px) 146px, 377px"
+                            src="assets/images/sub-mid/ek-gold-sub-377w.jpg"
+                            alt="Фиалка ЕК-Золото">
                     </a>
-                    <a href="assets/images/full-size/ek-jemchug.webp" target="_blank">
-                        <img
-                        class="article__small-image"
-                        src="assets/images/thumbnails/ek-jemchug-thumbnail.webp"
-                        alt="Фиалка ЕК-Жемчуг">
+                    <a href="assets/images/full-size/ek-jemchug-full.jpg" target="_blank">
+                        <img srcset="/assets/images/thumbnails/ek-jemchug-146w.jpg 146w,
+                                    /assets/images/sub-mid/ek-jemchug-sub-377w.jpg 377w"
+                            class="article__small-image"
+                            sizes="(max-width: 819px) 146px, 377px"
+                            src="assets/images/sub-mid/ek-jemchug-sub-377w.jpg"
+                            alt="Фиалка ЕК-Жемчуг">
                     </a>
-                    <a href="assets/images/full-size/ek-nejnost.webp" target="_blank">
-                        <img
-                        class="article__small-image"
-                        src="assets/images/thumbnails/ek-nejnost-thumbnail.webp"
-                        alt="Фиалка ЕК-Нежность">
+                    <a href="assets/images/full-size/ek-nejnost-full.jpg" target="_blank">
+                        <img srcset="/assets/images/thumbnails/ek-nejnost-146w.jpg 146w,
+                                    /assets/images/sub-mid/ek-nejnost-sub-377w.jpg 377w"
+                            class="article__small-image"
+                            sizes="(max-width: 819px) 146px, 377px"
+                            src="assets/images/sub-mid/ek-nejnost-sub-377w.jpg"
+                            alt="Фиалка ЕК-Нежность">
                     </a>
-                    <a href="assets/images/full-size/ek-lampa.webp" target="_blank">
-                        <img
-                        class="article__small-image"
-                        src="assets/images/thumbnails/ek-lampa-thumbnail.webp"
-                        alt="Фиалка ЕК-Лампа">
+                    <a href="assets/images/full-size/ek-lampa-full.jpg" target="_blank">
+                        <img srcset="/assets/images/thumbnails/ek-lampa-146w.jpg 146w,
+                                    /assets/images/sub-mid/ek-lampa-sub-377w.jpg 377w"
+                            class="article__small-image"
+                            sizes="(max-width: 819px) 146px, 377px"
+                            src="assets/images/sub-mid/ek-lampa-sub-377w.jpg
+                            alt="Фиалка ЕК-Лампа">
                     </a>
-                    <a href="assets/images/full-size/ek-ocean.webp" target="_blank">
-                        <img
-                        class="article__small-image"
-                        src="assets/images/thumbnails/ek-ocean-thumbnail.webp"
-                        alt="Фиалка ЕК-Океан">
+                    <a href="assets/images/full-size/ek-ocean-full.jpg" target="_blank">
+                        <img srcset="/assets/images/thumbnails/ek-ocean-146w.jpg 146w,
+                                    /assets/images/sub-mid/ek-ocean-sub-377w.jpg 377w"
+                            class="article__small-image"
+                            sizes="(max-width: 819px) 146px, 377px"
+                            src="assets/images/sub-mid/ek-ocean-sub-377w.jpg"
+                            alt="Фиалка ЕК-Океан">
                     </a>
-                    <a href="assets/images/full-size/ek-podrujki.webp" target="_blank">
-                        <img
-                        class="article__small-image"
-                        src="assets/images/thumbnails/ek-podrujki-thumbnail.webp"
-                        alt="Фиалка ЕК-Подружки">
+                    <a href="assets/images/full-size/ek-podrujki-full.jpg" target="_blank">
+                        <img srcset="/assets/images/thumbnails/ek-podrujki-146w.jpg 146w,
+                                    /assets/images/sub-mid/ek-podrujki-sub-377w.jpg 377w"
+                            class="article__small-image"
+                            sizes="(max-width: 819px) 146px, 377px"
+                            src="assets/images/sub-mid/ek-podrujki-sub-377w.jpg"
+                            alt="Фиалка ЕК-Подружки">
                     </a>
                 </div>
             </section>
