@@ -2,3 +2,15 @@
     width: 100px;
     border-bottom: 1px solid #404040;
 }
+
+@media only screen and (min-width: 820px) {
+    .article__line {
+        width: 200px;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .article__line {
+        width: 100px;
+    }
+}
