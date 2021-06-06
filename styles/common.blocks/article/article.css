@@ -8,6 +8,8 @@
 @import 'article__title/article__title.css';
 @import 'article__date/article__date.css';
 @import 'article__definition/article__definition.css';
+@import 'article__sub-title/article__sub-title.css';
+@import 'article__unordered-list/article__unordered-list.css';
 
 .article {
     display: flex;
