@@ -4,6 +4,10 @@
     font-weight: 500;
 }
 
+.header__title a {
+    text-decoration: none;
+}
+
 @media only screen and (min-width: 820px) {
     .header__title {
         font-size: 47px;
