@@ -1,0 +1,7 @@
+@import 'gallery-card__link/gallery-card__link.css';
+
+.gallery-card {
+    display: grid;
+    justify-items: center;
+    gap: 15px;
+}
