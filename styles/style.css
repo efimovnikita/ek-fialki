@@ -5,6 +5,7 @@
 @import 'common.blocks/article/article.css';
 @import 'common.blocks/html/html.css';
 @import 'common.blocks/gallery-card/gallery-card.css';
+@import 'common.blocks/pagination/pagination.css';
 
 * {
     --main-color: #404040;

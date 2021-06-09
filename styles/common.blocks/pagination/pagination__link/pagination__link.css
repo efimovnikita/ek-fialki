@@ -1,0 +1,17 @@
+.pagination__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+@media only screen and (min-width: 820px) {
+    .pagination__link {
+        font-size: 30px;
+    }
+
+    .pagination__link img {
+        width: 31px;
+        height: 30px;
+    }
+}

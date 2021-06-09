@@ -1,0 +1,8 @@
+@import 'pagination__links/pagination__links.css';
+@import 'pagination__link/pagination__link.css';
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
