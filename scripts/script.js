@@ -31,4 +31,8 @@ window.addEventListener("resize", function () {
             socials.classList.remove('header_invisible');
         }
     }
-  });
+});
+
+handleOrderClick = () => {
+    window.location.href = "/order.html";
+}

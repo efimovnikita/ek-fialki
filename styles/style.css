@@ -9,6 +9,9 @@
 @import 'common.blocks/tags/tags.css';
 @import 'common.blocks/price/price.css';
 @import 'common.blocks/cart/cart.css';
+@import 'common.blocks/form/form.css';
+@import 'common.blocks/order/order.css';
+
 
 * {
     --main-color: #404040;

@@ -10,6 +10,7 @@
 @import 'article__definition/article__definition.css';
 @import 'article__sub-title/article__sub-title.css';
 @import 'article__unordered-list/article__unordered-list.css';
+@import 'article__price/article__price.css';
 
 .article {
     display: flex;

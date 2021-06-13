@@ -1,0 +1,8 @@
+@import 'form__label/form__label.css';
+@import 'form__input/form__input.css';
+@import 'form__field/form__field.css';
+
+.form {
+    display: grid;
+    gap: 30px;
+}

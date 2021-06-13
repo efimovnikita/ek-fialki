@@ -1,0 +1,11 @@
+.order__total-image {
+    width: 18px;
+    height: 20px;
+}
+
+@media only screen and (min-width: 820px) {
+    .order__total-image {
+        width: 21px;
+        height: 24px;
+    }
+}
