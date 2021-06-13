@@ -34,9 +34,9 @@ window.addEventListener("resize", function () {
 });
 
 handleOrderClick = () => {
-    window.location.href = "/order.html";
+    window.location.href = "/dist/order.html";
 }
 
 handleSuccessClick = () => {
-    window.location.href = "/success.html";
+    window.location.href = "/dist/success.html";
 }
