@@ -1,0 +1,12 @@
+.cart__item-controls {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (min-width: 820px) {
+    .cart__item-controls {
+        gap: 35px;
+    }
+}

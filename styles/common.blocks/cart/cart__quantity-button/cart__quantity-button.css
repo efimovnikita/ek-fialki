@@ -1,0 +1,20 @@
+.cart__quantity-button {
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.cart__quantity-button img {
+    width: 20px;
+    height: 20px;
+}
+
+@media only screen and (min-width: 820px) {
+    .cart__quantity-button img {
+        width: 20px;
+        height: 35px;
+    }
+}

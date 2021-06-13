@@ -1,0 +1,11 @@
+.cart__item {
+    display: flex;
+    gap: 15px;
+    height: 80px;
+}
+
+@media only screen and (min-width: 820px) {
+    .cart__item {
+        height: 120px;
+    }
+}

@@ -8,6 +8,7 @@
 @import 'common.blocks/pagination/pagination.css';
 @import 'common.blocks/tags/tags.css';
 @import 'common.blocks/price/price.css';
+@import 'common.blocks/cart/cart.css';
 
 * {
     --main-color: #404040;

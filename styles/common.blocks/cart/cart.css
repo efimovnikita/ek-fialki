@@ -1,0 +1,18 @@
+@import 'cart__item/cart__item.css';
+@import 'cart__image/cart__image.css';
+@import 'cart__item-content/cart__item-content.css';
+@import 'cart__item-title/cart__item-title.css';
+@import 'cart__item-controls/cart__item-controls.css';
+@import 'cart__quantity-button/cart__quantity-button.css';
+@import 'cart__item-quantity/cart__item-quantity.css';
+@import 'cart__item-price/cart__item-price.css';
+@import 'cart__remove-button/cart__remove-button.css';
+@import 'cart__quantity-controls/cart__quantity-controls.css';
+@import 'cart__total-container/cart__total-container.css';
+@import 'cart__total-price/cart__total-price.css';
+@import 'cart__order-button/cart__order-button.css';
+
+.cart {
+    display: grid;
+    gap: 50px;
+}
