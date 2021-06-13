@@ -1,0 +1,13 @@
+@import 'tags__tag/tags__tag.css';
+
+.tags {
+    display: inline;
+    list-style: none;
+    font-style: italic;
+}
+
+.tags::before {
+    content: "Теги: ";
+    font-size: 14px;
+    font-style: italic;
+}

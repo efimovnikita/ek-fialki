@@ -1,0 +1,7 @@
+@import "price__value/price__value.css";
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

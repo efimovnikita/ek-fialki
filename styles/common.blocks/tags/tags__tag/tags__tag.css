@@ -1,0 +1,12 @@
+.tags__tag {
+    display: inline;
+    font-size: 14px;
+}
+
+.tags__tag::after {
+    content: ", ";
+}
+
+.tags__tag:last-child::after {
+    content: "";
+}
