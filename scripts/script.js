@@ -36,3 +36,7 @@ window.addEventListener("resize", function () {
 handleOrderClick = () => {
     window.location.href = "/order.html";
 }
+
+handleSuccessClick = () => {
+    window.location.href = "/success.html";
+}

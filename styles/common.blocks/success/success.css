@@ -1,0 +1,9 @@
+@import 'success__header/success__header.css';
+@import 'success__paragraph/success__paragraph.css';
+
+.success {
+    display: grid;
+    gap: 20px;
+    justify-items: center;
+    padding-bottom: 150px;
+}

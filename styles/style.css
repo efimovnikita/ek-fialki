@@ -11,6 +11,7 @@
 @import 'common.blocks/cart/cart.css';
 @import 'common.blocks/form/form.css';
 @import 'common.blocks/order/order.css';
+@import 'common.blocks/success/success.css';
 
 
 * {
